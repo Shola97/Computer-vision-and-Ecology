@@ -58,7 +58,7 @@ These pipelines enabled memory-efficient loading, scalable batching, and reprodu
 
 Active learning sample selection operated on array-based data pools, with selected samples subsequently passed into generator-backed training loops. Data selection and data loading were handled independently.
 
-### 🧬 Model Architecture and Transfer Learning
+### Model Architecture and Transfer Learning
 
 - Implemented a CNN-based image classifier using transfer learning
 - A pre-trained CNN backbone was used to leverage generic visual features
@@ -115,6 +115,6 @@ The challenges addressed in this project closely resemble those encountered in f
 
 This mirrors standard practice when working with proprietary or sensitive biological data.
 
-## ✅ Summary
+## Summary
 
 This project demonstrates how transfer learning combined with data augmentation can deliver strong performance on noisy, real-world image datasets, while active learning provides additional insight into data efficiency and class ambiguity. The emphasis is on robust pipelines, realistic constraints, and practical applicability to conservation monitoring and biomedical imaging.
